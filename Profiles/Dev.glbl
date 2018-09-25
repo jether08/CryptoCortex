@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL for Login page</description>
+      <initValue>'http://18.194.33.60/login'</initValue>
+      <name>LoginUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL for Signup Page</description>
+      <initValue>'http://18.194.33.60/sign-up'</initValue>
+      <name>SignupUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
