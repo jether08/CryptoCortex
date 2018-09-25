@@ -23,7 +23,35 @@ WebUI.openBrowser('')
 //Navigate to Sign Up page
 WebUI.navigateToUrl(GlobalVariable.SignupUrl)
 
-WebUI.waitForPageLoad(15)
+WebUI.waitForPageLoad(10)
+
+//Initializing webdriver script
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebUI.executeJavaScript('window.open();', [])
+currentWindow =  WebUI.getWindowIndex()
+
+println(currentWindow)
+
+//Go in to new tab
+WebUI.switchToWindowIndex(currentWindow + 1)
+WebUI.navigateToUrl('https://temp-mail.org/en/')
+
+//Get Email address generated in temp-mail
+IDmail = WebUI.getAttribute(findTestObject('Signup Page/EmailGen'),'value')
+
+//Print generated email address
+println(IDmail)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+//Switch back to DQR site
+WebUI.switchToWindowIndex(currentWindow)
+
+WebUI.delay(3)
+
 
 //Enter given name
 WebUI.setText(findTestObject('Signup Page/Given Name'), 'Dummy1')
@@ -34,11 +62,9 @@ WebUI.setText(findTestObject('Signup Page/Middle Name'), 'Middle')
 //Enter Surname
 WebUI.setText(findTestObject('Signup Page/Surname'), 'Test')
 
-//Switch to email generator tab
-
 
 //Enter email address
-WebUI.setText(findTestObject('Signup Page/Email'), '')
+WebUI.setText(findTestObject('Signup Page/Email'), IDmail)
 
 //Enter Phone number
 WebUI.setText(findTestObject('Signup Page/Phone'), '0109001')
@@ -72,5 +98,8 @@ WebUI.click(findTestObject('Signup Page/Signup button'))
 //Validation 1: Box with data
 
 
-//Validation 2: Confirm Email hyperlink
+
+//Validation 2: Confirm Email hyperlink 
+
+
 
