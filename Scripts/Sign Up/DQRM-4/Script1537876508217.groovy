@@ -69,10 +69,9 @@ WebUI.setText(findTestObject('Signup Page/Email'), IDmail)
 //Enter Phone number
 WebUI.setText(findTestObject('Signup Page/Phone'), '0109001')
 
-//Enter Country: Open the country dropdown, select Malta
-WebDriver driver = DriverFactory.getWebDriver()
+//Enter Country: Open the country dropdown, select United States
 WebUI.click(findTestObject('Signup Page/Country button'))
-driver.findElement(By.xpath('//div[@id="css-15mbd4a"]/div[contains(text(),"United States"]')).click()
+driver.findElement(By.xpath('//div[contains(text(),"United States")]')).click()
 
 //Enter State
 WebUI.setText(findTestObject('Signup Page/State'), "NY")
@@ -87,19 +86,18 @@ WebUI.setText(findTestObject('Signup Page/Street'), "123 St.")
 WebUI.setText(findTestObject('Signup Page/PostCode'), "8888")
 
 //Enter Password
-WebUI.setMaskedText(findTestObject('Signup Page/Password'), "dqr123456")
+WebUI.setMaskedText(findTestObject('Signup Page/Password'), "dqr123456!")
 
 //Enter Confirm Password
-WebUI.setMaskedText(findTestObject('Signup Page/Confirm Password'), "dqr123456")
+WebUI.setMaskedText(findTestObject('Signup Page/Confirm Password'), "dqr123456!")
 
 //Click Signup
 WebUI.click(findTestObject('Signup Page/Signup button'))
 
 //Validation 1: Box with data
-
-
+WebUI.verifyElementPresent(findTestObject('Signup Page/Signup Success Box'), 10)
 
 //Validation 2: Confirm Email hyperlink 
-
+WebUI.verifyElementPresent(findTestObject('Signup Page/ReqConfirm Link'), 3)
 
 

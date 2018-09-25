@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Signup button</name>
+   <name>Password Strength</name>
    <tag></tag>
-   <elementGuidId>4b790ad8-4c0f-49ae-affb-93e5bbbd4375</elementGuidId>
+   <elementGuidId>a79443af-30ac-4106-9fdb-f61414143179</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(text(),&quot;Sign Up&quot;)]</value>
+         <value>//*[@id=&quot;deltix__app&quot;]//div[@class=&quot;css-1ialerq&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(text(),&quot;Sign Up&quot;)]</value>
+      <value>//*[@id=&quot;deltix__app&quot;]//div[@class=&quot;css-1ialerq&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
