@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[1]/div[4]/div[@class=&quot;css-1c2xyfp&quot;]</value>
+         <value>//div[contains(text(),&quot;Sign out&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[1]/div[4]/div[@class=&quot;css-1c2xyfp&quot;]</value>
+      <value>//div[contains(text(),&quot;Sign out&quot;)]</value>
    </webElementProperties>
 </WebElementEntity>

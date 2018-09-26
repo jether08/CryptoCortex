@@ -13,31 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
-
 WebUI.openBrowser('')
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-//Call Login custom keyword
+//Call valid login custom keyword
 CustomKeywords.'utility.login.validLogin'()
 
-WebUI.waitForPageLoad(15)
+WebUI.delay(15)
 
-//Click the Deposit button
-WebUI.click(findTestObject('Trading Balance/Deposit Button'))
-
-//Click New Withdrawal button
-WebUI.click(findTestObject('Transfers/New Withdrawal'))
-
-//Open currency dropdown
-WebUI.click(findTestObject('Transfers/Wdraw Currency dropbtn'))
-
-//Select currency
-WebElement BTC = driver.findElement(By.xpath('//div[@class="css-15mbd4a"]/div[contains(text(),"BTC")]'))
-BTC.click()
-
-
+//Verify if Sign out button is present
+WebUI.verifyElementPresent(findTestObject('Top Bar/Signout'), 3)

@@ -29,14 +29,14 @@ WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button while f
 WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
 
 //2. INCORRECT USERNAME VALIDATION
-WebUI.setText(findTestObject('Login Page/Username'), 'tummy1') //Enter incorrect username
-WebUI.setText(findTestObject('Login Page/Password'), '') //Enter correct password
+WebUI.setText(findTestObject('Login Page/Username'), 'Tester1') //Enter incorrect username
+WebUI.setText(findTestObject('Login Page/Password'), GlobalVariable.password) //Enter correct password
 WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button
 WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
 
 //3. INCORRECT PASSWORD VALIDATION
-WebUI.setText(findTestObject('Login Page/Username'), 'tummy1') //Enter incorrect username
-WebUI.setText(findTestObject('Login Page/Password'), '') //Enter correct password
+WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username
+WebUI.setText(findTestObject('Login Page/Password'), 'password123') //Enter incorrect password
 WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button
 WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
 

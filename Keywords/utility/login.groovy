@@ -20,13 +20,13 @@ import internal.GlobalVariable
 
 public class login {
 	@Keyword
-	
+
 	def validLogin(){
 		WebUI.navigateToUrl(GlobalVariable.LoginUrl)
-		
+
 		WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username
 		WebUI.setText(findTestObject('Login Page/Password'), GlobalVariable.password) //Enter correct password
 		WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button
-		
+
 	}
 }
