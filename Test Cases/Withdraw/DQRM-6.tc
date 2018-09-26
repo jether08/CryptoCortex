@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Withdraw function</description>
+   <name>DQRM-6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c16d731-ad37-4d88-935c-fb31c3c087df</testCaseGuid>
+</TestCaseEntity>

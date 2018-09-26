@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Deposit Button</name>
+   <description>New Withdrawal button</description>
+   <name>New Withdrawal</name>
    <tag></tag>
-   <elementGuidId>e44e9b33-18a8-431e-b8e1-37b5b95057fa</elementGuidId>
+   <elementGuidId>caa79165-8cbe-483f-8614-e0c98c1462d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class=&quot;css-23deat&quot;]</value>
+         <value>//button[@class=&quot;css-xerm44&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class=&quot;css-23deat&quot;]</value>
+      <value>//button[@class=&quot;css-xerm44&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Deposit Button</name>
+   <description>Dropdown button for Withdrawal Currency</description>
+   <name>Wdraw Currency dropbtn</name>
    <tag></tag>
-   <elementGuidId>e44e9b33-18a8-431e-b8e1-37b5b95057fa</elementGuidId>
+   <elementGuidId>da6fa787-8815-4535-a6ca-dfcf4853c6ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class=&quot;css-23deat&quot;]</value>
+         <value>//button[@class=&quot;css-1n15dlg&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class=&quot;css-23deat&quot;]</value>
+      <value>//button[@class=&quot;css-1n15dlg&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

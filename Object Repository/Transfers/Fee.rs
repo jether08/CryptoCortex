@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Deposit Button</name>
+   <name>Fee</name>
    <tag></tag>
-   <elementGuidId>e44e9b33-18a8-431e-b8e1-37b5b95057fa</elementGuidId>
+   <elementGuidId>9dff3b0d-e07b-4b21-99df-3beb39dfd112</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class=&quot;css-23deat&quot;]</value>
+         <value>//div[@class=&quot;css-oat7h3&quot;]/div[3]/div[@class=&quot;css-1ng2vru&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class=&quot;css-23deat&quot;]</value>
+      <value>//div[@class=&quot;css-oat7h3&quot;]/div[3]/div[@class=&quot;css-1ng2vru&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
