@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), 'Sign in')]</value>
+         <value>//button[@type=&quot;submit&quot;]/div[contains(text(), 'Sign in')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), 'Sign in')]</value>
+      <value>//button[@type=&quot;submit&quot;]/div[contains(text(), 'Sign in')]</value>
    </webElementProperties>
 </WebElementEntity>
