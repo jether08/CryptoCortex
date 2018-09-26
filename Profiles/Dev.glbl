@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dummy1'</initValue>
+      <initValue>'Tester 1'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'dqr123456'</initValue>
+      <initValue>'password'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
