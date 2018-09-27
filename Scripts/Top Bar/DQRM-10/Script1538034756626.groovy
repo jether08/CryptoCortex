@@ -24,4 +24,5 @@ WebUI.click(findTestObject('Top Bar/Signout'))
 WebUI.delay(10)
 
 //Verify if URL is the Login page's URL
-
+String loginURL = WebUI.getUrl()
+WebUI.verifyMatch(loginURL, GlobalVariable.LoginUrl, true)
