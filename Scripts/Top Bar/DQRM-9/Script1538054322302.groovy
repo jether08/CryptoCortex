@@ -20,4 +20,5 @@ CustomKeywords.'utility.login.validLogin'()
 
 WebUI.click(findTestObject('Top Bar/User'))
 
-WebUI.verifyElementPresent(findTestObject('Profile/Edit Profile'), 10)
+WebUI.verifyElementVisible(findTestObject('Profile/Edit Profile'))
+
