@@ -36,8 +36,30 @@ WebUI.click(findTestObject('Transfers/New Withdrawal'))
 //Open currency dropdown
 WebUI.click(findTestObject('Transfers/Wdraw Currency dropbtn'))
 
-//Select currency
+//Select coin
 WebElement BTC = driver.findElement(By.xpath('//div[@class="css-15mbd4a"]/div[contains(text(),"BTC")]'))
 BTC.click()
+
+//Enter Wallet address
+WebUI.setText(findTestObject('Transfers/Wallet Address'), 'wallet1')
+
+//Enter amount to withdraw
+WebUI.setText(findTestObject('Transfers/To Withdraw'), '0.1')
+
+//Click Withdraw
+WebUI.click(findTestObject('Transfers/Withdraw Btn'))
+
+WebUI.delay(5)
+
+//VALIDATIONS:
+//Verify that a new field is added in
+
+
+//Verify that the selected coin is displayed in
+
+
+//Verify that a new field is added into the table
+
+
 
 
