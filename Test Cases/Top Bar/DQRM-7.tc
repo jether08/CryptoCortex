@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing top bar: plus button/chart</description>
+   <name>DQRM-7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5473ab2f-c90d-4139-b45a-aecf445c672b</testCaseGuid>
+</TestCaseEntity>
