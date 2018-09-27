@@ -20,4 +20,4 @@ CustomKeywords.'utility.login.validLogin'()
 
 WebUI.click(findTestObject('Top Bar/User'))
 
-WebUI.verifyElementPresent(findTestObject('Signup Page/Signup Success Box'), 10)
+WebUI.verifyElementPresent(findTestObject('Profile/Edit Profile'), 10)
