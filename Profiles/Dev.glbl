@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>URL for Login page</description>
-      <initValue>'http://18.194.33.60/login'</initValue>
+      <initValue>' http://dev.cryptowebui.com/login'</initValue>
       <name>LoginUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tester 1'</initValue>
+      <initValue>'Anthony Burgess'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
