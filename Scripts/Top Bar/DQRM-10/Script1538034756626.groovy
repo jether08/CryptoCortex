@@ -18,11 +18,10 @@ WebUI.openBrowser('')
 //Call valid login keyword
 CustomKeywords.'utility.login.validLogin'()
 
-//Click the Plus button
-WebUI.click(findTestObject('Top Bar/Plus Button'))
+//Click on the Signout button
+WebUI.click(findTestObject('Top Bar/Signout'))
 
-//Click on each item button
+WebUI.delay(10)
 
-
-//Verify if selected item is displayed in the top left corner
+//Verify if URL is the Login page's URL
 

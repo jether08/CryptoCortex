@@ -18,9 +18,6 @@ WebUI.openBrowser('')
 //Call valid login keyword
 CustomKeywords.'utility.login.validLogin'()
 
-//Click the Plus button
-WebUI.click(findTestObject('Top Bar/Plus Button'))
-
 //Click on each item button
 
 
