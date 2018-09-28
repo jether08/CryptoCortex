@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class=&quot;css-23deat&quot;]</value>
+         <value>//button/div[contains(text(),'DEPOSIT')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class=&quot;css-23deat&quot;]</value>
+      <value>//button/div[contains(text(),'DEPOSIT')]</value>
    </webElementProperties>
 </WebElementEntity>

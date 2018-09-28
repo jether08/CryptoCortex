@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class=&quot;css-xerm44&quot;]</value>
+         <value>//div[@class=&quot;css-yy7x0x&quot;]//div[@class=&quot;css-j7qwjs&quot;]//div[@class=&quot;css-u4p24i&quot;]/div[2]/div/div[4]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class=&quot;css-xerm44&quot;]</value>
+      <value>//div[@class=&quot;css-yy7x0x&quot;]//div[@class=&quot;css-j7qwjs&quot;]//div[@class=&quot;css-u4p24i&quot;]/div[2]/div/div[4]/button</value>
    </webElementProperties>
 </WebElementEntity>

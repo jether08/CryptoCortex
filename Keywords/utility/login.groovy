@@ -22,7 +22,7 @@ public class login {
 	@Keyword
 
 	def validLogin(){
-		
+
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 

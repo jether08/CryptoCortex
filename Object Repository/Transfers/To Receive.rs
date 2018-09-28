@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class=&quot;css-oat7h3&quot;]/div[2]//input[@class=&quot;css-ztf5de&quot;]</value>
+         <value>//div[@class=&quot;css-yy7x0x&quot;]//div[@class=&quot;css-j7qwjs&quot;]//div[@class=&quot;css-u4p24i&quot;]/div[2]/div/div[2]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class=&quot;css-oat7h3&quot;]/div[2]//input[@class=&quot;css-ztf5de&quot;]</value>
+      <value>//div[@class=&quot;css-yy7x0x&quot;]//div[@class=&quot;css-j7qwjs&quot;]//div[@class=&quot;css-u4p24i&quot;]/div[2]/div/div[2]//input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -30,6 +30,8 @@ WebUI.waitForPageLoad(15)
 //Click the Deposit button
 WebUI.click(findTestObject('Trading Balance/Deposit Button'))
 
+WebUI.delay(5)
+
 //Click New Withdrawal button
 WebUI.click(findTestObject('Transfers/New Withdrawal'))
 
@@ -46,7 +48,7 @@ WebUI.setText(findTestObject('Transfers/Wallet Address'), 'wallet1')
 //Enter amount to withdraw
 WebUI.setText(findTestObject('Transfers/To Withdraw'), '0.1')
 
-//Click Withdraw
+/*/Click Withdraw
 WebUI.click(findTestObject('Transfers/Withdraw Btn'))
 
 WebUI.delay(5)
@@ -58,7 +60,7 @@ WebUI.delay(5)
 //Verify that the selected coin is displayed in
 
 
-//Verify that a new field is added into the table
+//Verify that a new field is added into the table*/
 
 
 
