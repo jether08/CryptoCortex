@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
@@ -21,6 +22,7 @@ import org.openqa.selenium.By
 WebUI.openBrowser('')
 
 WebDriver driver = DriverFactory.getWebDriver()
+KeywordLogger log = new KeywordLogger()
 
 //Call Login custom keyword
 CustomKeywords.'utility.login.validLogin'()
@@ -31,6 +33,10 @@ WebUI.waitForPageLoad(15)
 WebUI.click(findTestObject('Trading Balance/Deposit Button'))
 
 WebUI.delay(5)
+
+//Count the number of rows in the Transfers table
+int rows1 = driver.findElements(By.xpath('//div[@class="css-1pb8vrj"]/div')).size()
+println(rows1)
 
 //Click New Withdrawal button
 WebUI.click(findTestObject('Transfers/New Withdrawal'))
@@ -48,19 +54,40 @@ WebUI.setText(findTestObject('Transfers/Wallet Address'), 'wallet1')
 //Enter amount to withdraw
 WebUI.setText(findTestObject('Transfers/To Withdraw'), '0.1')
 
-/*/Click Withdraw
+//Click Withdraw
 WebUI.click(findTestObject('Transfers/Withdraw Btn'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 //VALIDATIONS:
-//Verify that a new field is added in
-
+//Verify that a new row is added in the table
+int rows2 = driver.findElements(By.xpath('//div[@class="css-1pb8vrj"]/div')).size()
+println(rows2)
+if(rows2==(rows1+1)){
+	log.logPassed("PASSED: A new row is added")
+}
+else{
+	log.logFailed("FAILED: No new row added")
+}
 
 //Verify that the selected coin is displayed in
+String currency = driver.findElement(By.xpath('//div[@class="css-1pb8vrj"]/div[1]/div/div[2]/div')).getText()
+if(currency=='BTC'){
+	log.logPassed("PASSED: Currency is correct")
+}
+else{
+	log.logFailed("FAILED: Currency is incorrect")
+}
 
+//Verify that the newly added row is correct
+String transfer_type = driver.findElement(By.xpath('//div[@class="css-1pb8vrj"]/div[1]/div/div[1]/div/div[2]/div')).getText()
+if(transfer_type.equalsIgnoreCase('Withdrawal')){
+	log.logPassed("PASSED: New row is correct.")
+}
+else{
+	log.logFailed("FAILED: New row is incorrect.")
+}
 
-//Verify that a new field is added into the table*/
 
 
 
