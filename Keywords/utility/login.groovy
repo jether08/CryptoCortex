@@ -22,6 +22,8 @@ public class login {
 	@Keyword
 
 	def validLogin(){
+		
+		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 
 		WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username
