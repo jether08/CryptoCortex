@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing hamburger</description>
+   <name>DQRM-11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c943a283-2106-4565-b584-21320d38eab8</testCaseGuid>
+</TestCaseEntity>
