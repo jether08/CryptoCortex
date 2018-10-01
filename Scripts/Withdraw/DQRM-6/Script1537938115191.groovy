@@ -30,7 +30,7 @@ CustomKeywords.'utility.login.validLogin'()
 WebUI.waitForPageLoad(15)
 
 //Click the Deposit button
-WebUI.click(findTestObject('Trading Balance/Deposit Button'))
+WebUI.click(findTestObject('Trading Balance/Deposit_Button'))
 
 WebUI.delay(5)
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Deposit button</name>
+   <name>Deposit_Button</name>
    <tag></tag>
-   <elementGuidId>2f1beb58-cd28-4a0a-a7af-2a56beb62b5e</elementGuidId>
+   <elementGuidId>e44e9b33-18a8-431e-b8e1-37b5b95057fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[3]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div[2]/div/div/button</value>
+         <value>//*[contains(text(),'New Deposit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[3]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div[2]/div/div/button</value>
+      <value>//button/div[contains(text(),'DEPOSIT')]</value>
    </webElementProperties>
 </WebElementEntity>
