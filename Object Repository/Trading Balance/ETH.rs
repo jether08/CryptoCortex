@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ETH</name>
+   <tag></tag>
+   <elementGuidId>07b07fdb-1293-49d4-8e99-528881f31ddf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;ETH&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;ETH&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

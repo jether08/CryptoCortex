@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>XRP</name>
+   <tag></tag>
+   <elementGuidId>9d9f09c4-555f-4b85-aa82-f085c32db010</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;XRP&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;XRP&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

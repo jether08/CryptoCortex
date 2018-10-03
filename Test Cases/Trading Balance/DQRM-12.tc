@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing trading balance options button</description>
+   <name>DQRM-12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6aee0d36-f237-423d-9767-5e55ef0c6255</testCaseGuid>
+</TestCaseEntity>

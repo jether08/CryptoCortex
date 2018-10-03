@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BTC</name>
+   <tag></tag>
+   <elementGuidId>45e265a4-80c4-4627-a325-e837dbd749c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;BTC&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;BTC&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

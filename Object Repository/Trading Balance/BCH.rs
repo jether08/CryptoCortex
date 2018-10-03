@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BCH</name>
+   <tag></tag>
+   <elementGuidId>5ac7430c-561b-4378-92c8-a5239d0641a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;BCH&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-1cfh8ii&quot;]//div[contains(text(),&quot;BCH&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>
