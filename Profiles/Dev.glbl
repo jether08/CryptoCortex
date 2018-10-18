@@ -24,4 +24,9 @@
       <initValue>'password'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tradedemo.dqrmarkets.com/login'</initValue>
+      <name>newLoginURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

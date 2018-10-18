@@ -24,7 +24,10 @@ public class login {
 	def validLogin(){
 
 		WebUI.maximizeWindow()
-		WebUI.navigateToUrl(GlobalVariable.LoginUrl)
+		//WebUI.navigateToUrl(GlobalVariable.LoginUrl)
+		WebUI.navigateToUrl(GlobalVariable.newLoginURL)
+		
+		WebUI.delay(10)
 
 		WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username
 		WebUI.setText(findTestObject('Login Page/Password'), GlobalVariable.password) //Enter correct password

@@ -31,6 +31,12 @@ CustomKeywords.'utility.login.validLogin'()
 
 WebUI.delay(15)
 
+//Click Currency dropdown button
+//WebUI.click(findTestObject('Trading Balance/Currency dropbtn'))
+
+//List <WebElement> coins = driver.findElements(By.xpath('//div[@class="css-wupi9h"]/div/div/div[3]/div/div[1]/div'))
+//println(coins.get(0).getText())
+
 for(i=1;i<=6;i++){
 		
 	//Initial count of selected currencies
@@ -47,6 +53,11 @@ for(i=1;i<=6;i++){
 			WebElement BCH = driver.findElement(By.xpath('//div[@class="css-11f51v5"]/div//div[contains(text(),"BCH")]'))
 			BCH.click()
 			
+			//Get the position of BCH
+			WebElement preceding = driver.findElement(By.xpath('//div[@class="css-11f51v5"]/div//div[contains(text(),"BCH")]/preceding-sibling::div[@class'))
+			println(preceding.getText())
+			
+			
 			//Verify that the count of selected currencies is incremented
 			int selected2 = driver.findElements(By.xpath('//div[@class="css-1cfh8ii"]/div')).size()
 			if(selected2==selected1+1){
@@ -61,7 +72,6 @@ for(i=1;i<=6;i++){
 			
 			//Verify that the order is correct
 				
-			
 			break;
 			
 		case 2:
