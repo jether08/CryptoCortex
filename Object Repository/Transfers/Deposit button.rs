@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[3]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div[2]/div/div/button</value>
+         <value>//button[@class=&quot;css-lteeka&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;deltix__app&quot;]/div/div[2]/div[3]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div[2]/div/div/button</value>
+      <value>//button[@class=&quot;css-lteeka&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

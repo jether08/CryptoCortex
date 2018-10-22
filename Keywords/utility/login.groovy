@@ -26,7 +26,7 @@ public class login {
 		WebUI.maximizeWindow()
 		//WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 		WebUI.navigateToUrl(GlobalVariable.newLoginURL)
-		
+
 		WebUI.delay(10)
 
 		WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username

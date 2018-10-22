@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Transfers/New Deposit'))
 WebUI.click(findTestObject('Transfers/Wdraw Currency dropbtn'))
 
 //Select coin
-WebElement coin = driver.findElement(By.xpath('//div[@class="css-15mbd4a"]/div[contains(text(),"ETH")]'))
+WebElement coin = driver.findElement(By.xpath('//div[@class="css-15mbd4a"]/div[contains(text(),"LTC")]'))
 coin.click()
 
 WebUI.delay(3)
