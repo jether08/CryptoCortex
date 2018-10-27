@@ -37,7 +37,6 @@ WebUI.delay(20)
 //Create a collection for all currencies in the top bar
 List <WebElement> collection = driver.findElements(By.xpath("//*[@class='css-lzlahb']/div"))
 
-
 int count = collection.size()
 println(count)
 

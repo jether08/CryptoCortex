@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Traderoom/Hamburger'))
 
 WebUI.verifyElementVisible(findTestObject('Traderoom/Order Book'))
 
-WebUI.verifyElementVisible(findTestObject('Traderoom/Trade History'))
+//WebUI.verifyElementVisible(findTestObject('Traderoom/Trade History'))
 
 WebUI.verifyElementVisible(findTestObject('Traderoom/Depth Chart'))
 
@@ -62,9 +62,9 @@ OrderBook.click()
 WebElement TradeHistory = driver.findElement(By.xpath("//*[@data-id='tradeHistory']"))
 TradeHistory.click()
 	 
-	if (WebUI.verifyElementNotPresent(findTestObject('Traderoom/Trade History'),10)){
+	if (WebUI.verifyElementPresent(findTestObject('Traderoom/Trade History'),10)){
 		 
-	KeywordUtil.markPassed("Passed:Trade History is not visible")
+	KeywordUtil.markPassed("Passed:Trade History is visible")
 	 
 	}
 	

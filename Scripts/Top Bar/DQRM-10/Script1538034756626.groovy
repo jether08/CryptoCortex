@@ -25,4 +25,4 @@ WebUI.delay(10)
 
 //Verify if URL is the Login page's URL
 String loginURL = WebUI.getUrl()
-WebUI.verifyMatch(loginURL, GlobalVariable.LoginUrl, true)
+WebUI.verifyMatch(loginURL, GlobalVariable.newLoginURL, true)

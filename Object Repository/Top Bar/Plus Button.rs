@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;security_form_main_form&quot;]/div[@class=&quot;ignore-instruments css-cyllrn&quot;]</value>
+         <value>//div[@id=&quot;security_form_main_form&quot;]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;security_form_main_form&quot;]/div[@class=&quot;ignore-instruments css-cyllrn&quot;]</value>
+      <value>//div[@id=&quot;security_form_main_form&quot;]/div</value>
    </webElementProperties>
 </WebElementEntity>
