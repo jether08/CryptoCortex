@@ -20,11 +20,11 @@ import org.openqa.selenium.By
 WebUI.openBrowser('')
 
 //Navigate to Sign Up page
-WebUI.navigateToUrl(GlobalVariable.LoginUrl)
+WebUI.navigateToUrl(GlobalVariable.newLoginURL)
 
 WebUI.waitForPageLoad(15)
 
-//1. EMPTY FIELDS VALIDATION
+/*//1. EMPTY FIELDS VALIDATION
 WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button while fields are empty
 WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
 
@@ -38,5 +38,11 @@ WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
 WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.username) //Enter correct username
 WebUI.setText(findTestObject('Login Page/Password'), 'password123') //Enter incorrect password
 WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button
-WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message
+WebUI.verifyTextPresent('Invalid credentials', true) //Verify error message*/
 
+//4. INCORRECT USERNAME and PASSWORF VALIDATION
+WebUI.setText(findTestObject('Login Page/Username'), 'Tester1') //Enter incorrect username
+WebUI.setText(findTestObject('Login Page/Password'), 'Tester1') //Enter incorrect password
+WebUI.click(findTestObject('Login Page/Sign in')) //Click Sign in button
+WebUI.delay(2)
+WebUI.verifyTextPresent('User with specified username and password does not exist.', true) //Verify error message
