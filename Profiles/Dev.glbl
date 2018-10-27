@@ -29,4 +29,9 @@
       <initValue>'https://tradedemo.dqrmarkets.com/login'</initValue>
       <name>newLoginURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tradedemo.dqrmarkets.com/sign-up'</initValue>
+      <name>newSingupUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
